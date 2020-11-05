@@ -9,7 +9,9 @@ After I changed the values to lr=0.2 and weight_decay=1e-2, to see if it would i
 
 Tweaking the learning rate an weighted gain again, lr=0.05, weight_decay=1e-10, I got results similar to the first code given in the question but infact with minimized losses ; [1,    20] loss: 2.124 and [10,  1560] loss: 0.897.
 
-I played with the numbers a little more namely; lr=0.075, weight_decay=1e-10 to get better losses [1,    20] loss: 2.075 and 
+I played with the numbers a little more namely; lr=0.075, weight_decay=1e-10 to prove the previous values were the best as the losses in this trial were [1,    20] loss: 2.075 and 1.059. 
+
+All values are charted in the table below!
 
 #### To run the code: 
 
@@ -21,4 +23,4 @@ Please run each cell separately, thanks!
 |     1e-4      |      1e-5     |     2.980     |     1.500     |
 |     0.2       |      1e-2     |     4.374     |     1.615     |
 |     0.05      |      1e-10    |     2.124     |     0.897     |
-|     0.075     |      1e-10    |     2.075     |          |
+|     0.075     |      1e-10    |     2.075     |     1.059     |
